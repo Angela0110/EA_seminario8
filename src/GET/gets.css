@@ -1,0 +1,29 @@
+.list-container {
+  padding: 20px;
+}
+
+
+.table-container {
+  overflow-x: auto;
+}
+
+.list-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.list-table th,
+.list-table td {
+  padding: 8px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.list-table li {
+  display: list-item; 
+}
+
+.list-table tbody tr:hover {
+  background-color: #61dafb;
+  cursor: pointer;
+}
